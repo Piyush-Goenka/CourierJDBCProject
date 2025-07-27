@@ -1,9 +1,13 @@
-Database Configuration :-
+## Database Configuration
 
 To connect the project to your own MySQL database, update the following file:
 
-1 . resources/config.properties
-Example :- 
-  db.url=jdbc:mysql://localhost:3306/courier_db
-  db.user=root
-  db.password=password
+### Steps:
+
+1. Create the database:  
+   CREATE DATABASE courier_db;
+   
+2. Update the `config.properties` file:
+   - `db.url`: Your JDBC URL (with DB name)
+   - `db.user`: Your MySQL username
+   - `db.password`: Your MySQL password
